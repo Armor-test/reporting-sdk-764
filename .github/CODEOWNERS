@@ -1,0 +1,37 @@
+# CODEOWNERS file for reporting-sdk-764
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-payments @Armor-test/squad-performance @Armor-test/squad-tooling
+
+# Directory ownership
+/pkg/ @Armor-test/grp-storage @Armor-test/unit-governance @Armor-test/squad-frontend
+/internal/ @Armor-test/unit-cloud @Armor-test/unit-test
+/assets/ @Armor-test/squad-payments @Armor-test/dept-billing
+/config/ @Armor-test/dept-release @Armor-test/squad-mobile
+/dist/ @Armor-test/grp-api @Armor-test/squad-ml
+/security/ @Armor-test/squad-tooling @Armor-test/dept-security
+/common/ @Armor-test/dept-billing @Armor-test/dept-security @Armor-test/team-security
+/components/ @Armor-test/unit-test @Armor-test/dept-reporting @Armor-test/dept-billing
+/services/ @Armor-test/grp-payments @Armor-test/squad-product
+/helpers/ @Armor-test/squad-apps @Armor-test/team-reporting
+/web/ @Armor-test/dept-logging @Armor-test/team-frontend @Armor-test/squad-apps
+/third_party/ @Armor-test/unit-cloud @Armor-test/squad-performance @Armor-test/grp-ui
+/api/ @Armor-test/unit-cloud @Armor-test/dept-reporting @Armor-test/squad-reporting
+/static/ @Armor-test/squad-cache @Armor-test/squad-payments
+/modules/ @Armor-test/dept-identity @Armor-test/squad-mobile @Armor-test/dept-billing
+
+# File type ownership
+*.rb @Armor-test/unit-governance @Armor-test/squad-ux @Armor-test/squad-frontend
+*.yml @Armor-test/team-research @Armor-test/grp-integration @Armor-test/squad-tooling
+*.sh @Armor-test/team-research @Armor-test/dept-billing
+*.gradle @Armor-test/squad-product @Armor-test/squad-reporting
+*.php @Armor-test/team-reporting @Armor-test/squad-cloud @Armor-test/squad-frontend
+*.cs @Armor-test/dept-reliability @Armor-test/dept-api @Armor-test/team-reporting
+*.yaml @Armor-test/dept-logging @Armor-test/unit-cloud
+*.xml @Armor-test/dept-billing @Armor-test/team-logging @Armor-test/squad-cache
+*.kt @Armor-test/unit-test @Armor-test/team-frontend
+*.tf @Armor-test/team-reporting @Armor-test/squad-ux @Armor-test/dept-automation
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
